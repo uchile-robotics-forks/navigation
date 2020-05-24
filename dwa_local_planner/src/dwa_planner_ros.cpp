@@ -119,8 +119,6 @@ namespace dwa_local_planner {
       {
         odom_helper_.setOdomTopic( odom_topic_ );
       }
-      
-      latchedStopRotateController_.initialize(name);
 
       initialized_ = true;
 
